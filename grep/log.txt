@@ -1,0 +1,540 @@
+for s21_grep.c s21_grep.h Makefile -v -c -l
+for s21_grep.c -v -c -l
+-e for -e ^int s21_grep.c s21_grep.h Makefile -v -c -l
+-e for -e ^int s21_grep.c -v -c -l
+-e regex -e ^print s21_grep.c -v -c -l
+-e while -e void s21_grep.c Makefile -v -c -l
+for s21_grep.c s21_grep.h Makefile -v -l -c
+for s21_grep.c -v -l -c
+-e for -e ^int s21_grep.c s21_grep.h Makefile -v -l -c
+-e for -e ^int s21_grep.c -v -l -c
+-e regex -e ^print s21_grep.c -v -l -c
+-e while -e void s21_grep.c Makefile -v -l -c
+for s21_grep.c s21_grep.h Makefile -c -v -l
+for s21_grep.c -c -v -l
+-e for -e ^int s21_grep.c s21_grep.h Makefile -c -v -l
+-e for -e ^int s21_grep.c -c -v -l
+-e regex -e ^print s21_grep.c -c -v -l
+-e while -e void s21_grep.c Makefile -c -v -l
+for s21_grep.c s21_grep.h Makefile -c -l -v
+for s21_grep.c -c -l -v
+-e for -e ^int s21_grep.c s21_grep.h Makefile -c -l -v
+-e for -e ^int s21_grep.c -c -l -v
+-e regex -e ^print s21_grep.c -c -l -v
+-e while -e void s21_grep.c Makefile -c -l -v
+for s21_grep.c s21_grep.h Makefile -c -l -n
+for s21_grep.c -c -l -n
+-e for -e ^int s21_grep.c s21_grep.h Makefile -c -l -n
+-e for -e ^int s21_grep.c -c -l -n
+-e regex -e ^print s21_grep.c -c -l -n
+-e while -e void s21_grep.c Makefile -c -l -n
+for s21_grep.c s21_grep.h Makefile -c -n -l
+for s21_grep.c -c -n -l
+-e for -e ^int s21_grep.c s21_grep.h Makefile -c -n -l
+-e for -e ^int s21_grep.c -c -n -l
+-e regex -e ^print s21_grep.c -c -n -l
+-e while -e void s21_grep.c Makefile -c -n -l
+for s21_grep.c s21_grep.h Makefile -l -v -c
+for s21_grep.c -l -v -c
+-e for -e ^int s21_grep.c s21_grep.h Makefile -l -v -c
+-e for -e ^int s21_grep.c -l -v -c
+-e regex -e ^print s21_grep.c -l -v -c
+-e while -e void s21_grep.c Makefile -l -v -c
+for s21_grep.c s21_grep.h Makefile -l -c -v
+for s21_grep.c -l -c -v
+-e for -e ^int s21_grep.c s21_grep.h Makefile -l -c -v
+-e for -e ^int s21_grep.c -l -c -v
+-e regex -e ^print s21_grep.c -l -c -v
+-e while -e void s21_grep.c Makefile -l -c -v
+for s21_grep.c s21_grep.h Makefile -l -c -n
+for s21_grep.c -l -c -n
+-e for -e ^int s21_grep.c s21_grep.h Makefile -l -c -n
+-e for -e ^int s21_grep.c -l -c -n
+-e regex -e ^print s21_grep.c -l -c -n
+-e while -e void s21_grep.c Makefile -l -c -n
+for s21_grep.c s21_grep.h Makefile -l -n -c
+for s21_grep.c -l -n -c
+-e for -e ^int s21_grep.c s21_grep.h Makefile -l -n -c
+-e for -e ^int s21_grep.c -l -n -c
+-e regex -e ^print s21_grep.c -l -n -c
+-e while -e void s21_grep.c Makefile -l -n -c
+for s21_grep.c s21_grep.h Makefile -n -c -l
+for s21_grep.c -n -c -l
+-e for -e ^int s21_grep.c s21_grep.h Makefile -n -c -l
+-e for -e ^int s21_grep.c -n -c -l
+-e regex -e ^print s21_grep.c -n -c -l
+-e while -e void s21_grep.c Makefile -n -c -l
+for s21_grep.c s21_grep.h Makefile -n -l -c
+for s21_grep.c -n -l -c
+-e for -e ^int s21_grep.c s21_grep.h Makefile -n -l -c
+-e for -e ^int s21_grep.c -n -l -c
+-e regex -e ^print s21_grep.c -n -l -c
+-e while -e void s21_grep.c Makefile -n -l -c
+for s21_grep.c s21_grep.h Makefile -i -c -l
+for s21_grep.c -i -c -l
+-e for -e ^int s21_grep.c s21_grep.h Makefile -i -c -l
+-e for -e ^int s21_grep.c -i -c -l
+-e regex -e ^print s21_grep.c -i -c -l
+-e while -e void s21_grep.c Makefile -i -c -l
+for s21_grep.c s21_grep.h Makefile -i -l -c
+for s21_grep.c -i -l -c
+-e for -e ^int s21_grep.c s21_grep.h Makefile -i -l -c
+-e for -e ^int s21_grep.c -i -l -c
+-e regex -e ^print s21_grep.c -i -l -c
+-e while -e void s21_grep.c Makefile -i -l -c
+--------0---------
+-e while -i -v -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -i -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -i -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -i -o -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -i -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -v -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -h -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -n -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -s -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -o -i Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -o -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -o -h Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -o -n Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -o -s Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -o -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -i -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -v -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -i Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -h Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -n Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -s Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -h -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -n -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -s -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -o -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -i -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -v -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -i Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -h Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -n Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -s Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -h -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -n -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -s -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -o -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -h -v -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -h -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -h -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -h -o -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -n -v -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -n -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -n -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -n -o -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -s -v -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -s -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -s -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -s -o -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -i -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -v -i Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -v -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -v -h Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -v -n Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -v -s Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -v -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -h -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -n -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -s -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -o -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-cl handler Makefile s21_grep.c s21_grep.h
+------------------
+--------0---------
+-lc handler Makefile s21_grep.c s21_grep.h
+------------------
+--------0---------
+-ov handler Makefile s21_grep.c s21_grep.h
+------------------
+--------0---------
+-vo handler Makefile s21_grep.c s21_grep.h
+------------------
+--------0---------
+-e while -i -v -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -i -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -i -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -i -o -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -i -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -v -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -h -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -n -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -s -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -o -i Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -o -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -o -h Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -o -n Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -o -s Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -v -o -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -i -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -v -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -i Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -h Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -n Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -s Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -l -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -h -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -n -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -s -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -c -o -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -i -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -v -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -i Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -h Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -n Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -s Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -c -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -h -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -n -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -s -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -l -o -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -h -v -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -h -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -h -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -h -o -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -n -v -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -n -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -n -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -n -o -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -s -v -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -s -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -s -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -s -o -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -i -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -v -i Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -v -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -v -h Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -v -n Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -v -s Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -v -o Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -c -l Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -l -c Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -h -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -n -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -s -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-e while -o -o -v Makefile s21_grep.h s21_grep.c -e handler
+------------------
+--------0---------
+-cl handler Makefile s21_grep.c s21_grep.h
+------------------
+--------0---------
+-lc handler Makefile s21_grep.c s21_grep.h
+------------------
+--------0---------
+-ov handler Makefile s21_grep.c s21_grep.h
+------------------
+--------0---------
+-vo handler Makefile s21_grep.c s21_grep.h
+------------------
